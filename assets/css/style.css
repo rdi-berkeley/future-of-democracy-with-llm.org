@@ -2,9 +2,19 @@
 
 body {
   margin: 0;
-  background: #ffffff no-repeat right top;
+  background: #fffbe6;
+  color: #333333;
   background-size: 100%;
   font-family: "Lato", sans-serif;
+}
+
+a {
+    color: #0055aa;  /* Darker blue for better readability on yellow */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h2,
