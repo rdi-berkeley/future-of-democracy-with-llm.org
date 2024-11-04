@@ -37,7 +37,7 @@
     </script>
 </head>
 
-<body style="background-color: #fffbe6;">
+<body> <!--style="background-color: #fffbe6;">
 
     <!-- <div style="background-color: #003262">
         <div class="constraint">
@@ -84,18 +84,24 @@
     </div>
 
     <style>
-	.summary {
+		.summary {
             max-width: 800px;
             margin: 0 auto 40px auto;
-            padding: 25px;
+            padding: 20px 25px; /* Reduced vertical padding */
             background-color: #f8f9fa;
             border-left: 4px solid #0066cc;
             border-radius: 4px;
         }
         .summary h2 {
             margin-top: 0;
+            margin-bottom: 10px; /* Reduced space after heading */
             color: #0066cc;
-            font-size: 1.5rem;
+            font-size: 1.3rem; /* Slightly smaller heading */
+        }
+        .summary p {
+            margin: 0; /* Remove default paragraph margins */
+            font-size: 0.95rem; /* Slightly smaller text */
+            line-height: 1.5; /* Slightly tighter line height */
         }
         .main-text div {
             margin-left: 3vw;
