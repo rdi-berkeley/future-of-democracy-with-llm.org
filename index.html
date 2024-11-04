@@ -84,7 +84,7 @@
     </div>
 
     <style>
-		.summary {
+	.summary {
             max-width: 800px;
             margin: 0 auto 40px auto;
             padding: 20px 25px; /* Reduced vertical padding */
@@ -103,18 +103,27 @@
             font-size: 1.1rem; /* Slightly smaller text */
             line-height: 1.5; /* Slightly tighter line height */
         }
-        .main-text div {
-            margin-left: 3vw;
-            margin-right: 3vw;
-            margin-top: 45px;
+		.main-content {
+            margin: 45px auto 0;
+            padding: 0 10px;
             font-size: 18px;
             line-height: 26px;
         }
+		
+        .main-text div {
+			max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 45px;
+            font-size: 18px;
+            line-height: 26px;
+			padding: 0 10px;
+        }
 
-        @media (min-width: 1500px) {
-            .main-text div {
-                margin-left: 7vw;
-                margin-right: 7vw;
+		@media (max-width: 768px) {
+            .main-content {
+                margin-left: 3vw;
+                margin-right: 3vw;
             }
         }
     </style>
